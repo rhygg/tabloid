@@ -1,0 +1,13 @@
+{
+  "name": "Tabloid",
+  "displayName": "Tabloid",
+  "expo": {
+    "name": "Tabloid",
+    "slug": "tabloid",
+    "version": "1.0.2",
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "description": ""
+  }
+}
