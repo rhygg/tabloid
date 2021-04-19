@@ -8,7 +8,7 @@ export const available_Categories = `${NAME}/CATEGORY_HEADLINES_AVAILABLE`;
 
 
 
-export const token = `98bdd11f762a4334bb67f5ca00ce2c1d`;
+export const token = `HIDEY_HIDEY_TOKEN_HIDEY`;
 export const url = 'https://newsapi.org/v2';
 export const params = `&pageSize=${ps}`;
 
