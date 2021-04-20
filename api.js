@@ -5,7 +5,7 @@ import * as config from './config';
 export async function getHeadlines(country = "us"){
     try{
         let requests = [];
-        c.CATEGORIES.map((category) => {
+        config.categories.map((category) => {
             let url =  `${config.headlines}&country=${country}&category=${category.toLowerCase()}`;
             requests.push(axios.get(url))
         });
