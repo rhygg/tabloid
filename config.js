@@ -2,9 +2,9 @@ export const name = 'tabloid'
 
 
 export const ps = '20'
-export const available_Headlines = `${NAME}/HEADLINES_AVAILABLE`;
+export const available_Headlines = `${name}/HEADLINES_AVAILABLE`;
 
-export const available_Categories = `${NAME}/CATEGORY_HEADLINES_AVAILABLE`;
+export const available_Categories = `${name}/CATEGORY_HEADLINES_AVAILABLE`;
 
 
 
