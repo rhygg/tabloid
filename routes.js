@@ -7,9 +7,9 @@ import {createStackNavigator} from 'react-navigation-stack';
 import {Icon} from 'react-native-elements';
 import {BorderlessButton} from 'react-native-gesture-handler';
 import HomeScreen from "./scenes/home_screen";
-import ArticlesScreen from "./scenes/articles_screen";
-import ArticleScreen from "./scenes/article_screen";
-import SearchScreen from "./scenes/search_screen";
+import ArticlesScreen from "./screens/articles_screen";
+import ArticleScreen from "./screens/article_screen";
+import SearchScreen from "./screens/search_screen";
 
 let font = Platform.OS === 'ios' ? 'HelveticaNeue' : 'Roboto';
 let size = Platform.OS === 'ios' ? 24 : 25;
