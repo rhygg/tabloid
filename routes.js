@@ -6,7 +6,7 @@ import {createStackNavigator} from 'react-navigation-stack';
 
 import {Icon} from 'react-native-elements';
 import {BorderlessButton} from 'react-native-gesture-handler';
-import HomeScreen from "./scenes/home_screen";
+import HomeScreen from "./screens/home_screen";
 import ArticlesScreen from "./screens/articles_screen";
 import ArticleScreen from "./screens/article_screen";
 import SearchScreen from "./screens/search_screen";
