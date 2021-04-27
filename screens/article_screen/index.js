@@ -10,7 +10,7 @@ export default function Article(props) {
     return (
         <WebView source={{ uri: article.url }}
                  startInLoadingState={true}
-                 onError={() => alert("Failed to load article.")}
+                 onError={() => alert("Article unable to load up!")}
                  renderLoading={() => <ActivityIndicator style={{paddingVertical: 8}}/>}/>
     );
 };
